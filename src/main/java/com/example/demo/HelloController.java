@@ -8,11 +8,11 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Blue/Green Deployment (version 2.0.0)";
+        return "Hello from Blue/Green Deployment (version 3.0.0)";
     }
 
     @GetMapping("/version")
     public String version() {
-        return "2.0.0";
+        return "3.0.0";
     }
 }
